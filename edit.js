@@ -35,7 +35,7 @@ document.getElementById('save-btn').addEventListener('click', () => {
         dataList[index] = { name, age, origin, birthdate };
         localStorage.setItem("dataList", JSON.stringify(dataList));
         alert("Data berhasil disimpan.");
-        window.location.href = "tugas.html";
+        window.location.href = "index.html";
     } else {
         alert("Semua field wajib diisi.");
     }
